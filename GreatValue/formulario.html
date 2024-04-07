@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estiloGreatValue.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-Blanco">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagenes/Logo vectorizado.svg" width="100" alt="logo">
+                </a>
+                <div class="text-center order-md-last iconos">
+                    <a href="#"><i class="bi-person-circle"></i></a>
+                    <a href="pedidos.html"><i class="bi-dropbox"></i></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            DEPARTAMENTOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Higiene y Belleza</a></li>
+                                <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                                <li><a class="dropdown-item" href="#">Congelados</a></li>
+                                <li><a class="dropdown-item" href="#">Repostería</a></li>
+                                <li><a class="dropdown-item" href="#">Limpieza y Mascotas</a></li>
+                                <li><a class="dropdown-item" href="#">Vinos y Licores</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICIO AL CLIENTE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img width="100%" src="imagenes/señal.jpg" alt="señal que dice back to normal">
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="txtNombre" placeholder="NOMBRE" name="nombre">
+                        <label for="txtNombre">NOMBRE</label>
+                    </div>
+                    
+                    <div class="form-floating mt-3 mb-3">
+                        <input type="text" class="form-control" id="txtEmpresa" placeholder="EMPRESA" name="empresa">
+                        <label for="txtEmpresa">EMPRESA</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-floating mt-3 mb-3">
+                                <input type="email" class="form-control" id="txtCorreo" placeholder="CORREO" name="correo">
+                                <label for="txtCorreo">CORREO</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mt-3 mb-3">
+                                <input type="tel" class="form-control" id="txtWhatsapp" placeholder="WHATSAPP" name="whatsapp">
+                                <label for="txtWhatsapp">WHATSAPP</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-floating mt-3 mb-3">
+                        <input type="tel" class="form-control" id="txtDireccion" placeholder="DIRECCION" name="direccion">
+                        <label for="txtDireccion">DIRECCION</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-floating mt-3 mb-3">
+                                <input type="text" class="form-control" id="txtCp" placeholder="CP" name="cp">
+                                <label for="txtCp">CP</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="form-select mt-3 mb-3" aria-label="Default select example">
+                                <option selected>Estado</option>
+                                <option value="1">Aguascalientes</option>
+                                <option value="2">Baja California</option>
+                                <option value="3">Baja California Sur</option>
+                                <option value="4">Campeche</option>
+                                <option value="5">Chiapas</option>
+                                <option value="6">Chihuahua</option>
+                                <option value="7">Coahuila</option>
+                                <option value="8">Colima</option>
+                                <option value="9">Ciudad de México</option>
+                                <option value="10">Durango</option>
+                                <option value="11">Estado de México</option>
+                                <option value="12">Guanajuato</option>
+                                <option value="13">Guerrero</option>
+                                <option value="14">Hidalgo</option>
+                                <option value="15">Jalisco</option>
+                                <option value="16">Michoacán</option>
+                                <option value="17">Morelos</option>
+                                <option value="18">Nayarit</option>
+                                <option value="19">Nuevo León</option>
+                                <option value="20">Oaxaca</option>
+                                <option value="21">Puebla</option>
+                                <option value="22">Querétaro</option>
+                                <option value="23">Quintana Roo</option>
+                                <option value="24">San Luis Potosí</option>
+                                <option value="25">Sinaloa</option>
+                                <option value="26">Sonora</option>
+                                <option value="27">Tabasco</option>
+                                <option value="28">Tamaulipas</option>
+                                <option value="29">Tlaxcala</option>
+                                <option value="30">Veracruz</option>
+                                <option value="31">Yucatán</option>
+                                <option value="32">Zacatecas</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-floating mt-3 mb-3">
+                                <input type="text" class="form-control" id="txtCiudad" placeholder="CIUDAD" name="ciudad">
+                                <label for="txtCiudad">CIUDAD</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="btn btn-succes"></button>
+                        <div class="col-md-6">
+                            
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid FooterColor" style="margin-top: 20px;">
+        <div class="row text-center Contenedor_Footer">
+            <div class="col-12 col-md-6 col-lg-4 p-5">
+                <i class="bi bi-envelope"></i>
+                greatvalue@correo.com
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 p-5">
+                <i class="bi bi-telephone"></i>
+                (477) 153-22-59
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 p-5">
+                REDES SOCIALES
+                <i class="bi-facebook"></i>
+                <i class="bi-whatsapp"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
